@@ -12,7 +12,7 @@ import rehypeAstroRelativeMarkdownLinks from "astro-rehype-relative-markdown-lin
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://jacobrosenlund.com",
+  site: "https://diabolicalgolem.com",
   integrations: [mdx(), sitemap(), tailwind(), react()],
   markdown: {
     remarkPlugins: [remarkGfm],
