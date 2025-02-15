@@ -21,7 +21,7 @@ const {
     <BaseHead title={title} description={description} image={image} , ogType={ogType} />
     {TRANSITION_API && <ViewTransitions />}
   </head>
-  <body>
+  <body class="overflow-hidden">
     <div class="static">
       <div class="fixed top-0 left-0 w-full h-full flex items-center justify-center">
         <ThemeSwitcher />
@@ -33,7 +33,7 @@ const {
         <div style="color: oklch(var(--b1))" class="-rotate-[27deg]">Hey! You found the secret!</div>
       </div>
 
-      <div style="color: #1d232a" class="absolute bottom-20 right-10">
+      <div style="color: #1d232a" class="absolute bottom-19 right-10">
         <div class="rotate-[135deg]">The scholar’s sight sees all that’s past,<br>The final number—found at last.</div>
       </div>
     </div>
