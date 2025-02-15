@@ -22,16 +22,20 @@ const {
     {TRANSITION_API && <ViewTransitions />}
   </head>
   <body>
-    <div class="fixed top-0 left-0 w-full h-full flex items-center justify-center">
-      <ThemeSwitcher />
-    </div>
-    <div style="color: #ffffff" class="absolute top-20 left-10">
-      <div class="-rotate-[45deg] text-xl">3</div>
-    </div>
-    <div style="color: #1d232a" class="absolute bottom-20 right-10">
-      <div />
-      <div />
-      <div class="rotate-[135deg]"></div>
+    <div class="static">
+      <div class="fixed top-0 left-0 w-full h-full flex items-center justify-center">
+        <ThemeSwitcher />
+      </div>
+       <div style="color: #ffffff" class="absolute top-20 left-10">
+        <div class="-rotate-[45deg] text-9xl">3</div>
+      </div>
+      <div class="relative top-[100px] left-[150px]">
+        <div style="color: oklch(var(--b1))" class="-rotate-[27deg]">Hey! You found the secret!</div>
+      </div>
+
+      <div style="color: #1d232a" class="absolute bottom-20 right-10">
+        <div class="rotate-[135deg]">Your path is set, the numbers align,<br>But one must wait until the final sign.<br>A trio stands, both strong and free,<br>The last to press—the number Three.</div>
+      </div>
     </div>
   </body>
 </html>
